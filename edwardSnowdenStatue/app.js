@@ -29,19 +29,19 @@ function init() {
     light.position.set(50, 50, 50);
     scene.add(light);
 
-    const light2 = new THREE.DirectionalLight(0x00ffff, 0.9);
+    const light2 = new THREE.DirectionalLight(0x00ffff, 0.6);
     light2.position.set(0, 10, -10);
     scene.add(light2);
 
-    const light3 = new THREE.DirectionalLight(0xff00ff, 1);
+    const light3 = new THREE.DirectionalLight(0xff00ff, 0.7);
     light3.position.set(0, -10, -5);
     scene.add(light3);
 
-    const light4 = new THREE.PointLight(0xcccccc, 1, 100, 50);
+    const light4 = new THREE.PointLight(0xcccccc, 0.8, 100, 50);
     light4.position.set(0, 10, 50);
     scene.add(light4);
 
-    const light5 = new THREE.DirectionalLight(0xaaddaa, 2);
+    const light5 = new THREE.DirectionalLight(0xaaddaa, 1.7);
     light5.position.set(10, 10, 10);
     scene.add(light5);
 
