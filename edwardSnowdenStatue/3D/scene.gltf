@@ -1,0 +1,378 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 943,
+      "max": [
+        1.865056037902832,
+        2.309283971786499,
+        1.7293070554733276
+      ],
+      "min": [
+        -1.5463440418243408,
+        -4.1663241386413574,
+        -1.8909929990768433
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 11316,
+      "componentType": 5126,
+      "count": 943,
+      "max": [
+        0.99942046403884888,
+        1,
+        0.98757851123809814
+      ],
+      "min": [
+        -0.99528801441192627,
+        -1,
+        -0.99976974725723267
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 943,
+      "max": [
+        1,
+        0.99997848272323608,
+        1,
+        1
+      ],
+      "min": [
+        -0.99979722499847412,
+        -0.9999956488609314,
+        -1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 943,
+      "max": [
+        0.63655698299407959,
+        0.99000000953674316
+      ],
+      "min": [
+        0.0099999997764825821,
+        0.36545100808143616
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1053,
+      "max": [
+        942
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22632,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        2.9523699283599854,
+        3.3491230010986328,
+        3.0426549911499023
+      ],
+      "min": [
+        -2.5582749843597412,
+        -4.6399168968200684,
+        -2.1543850898742676
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 206616,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        0.99994498491287231,
+        0.99931186437606812,
+        0.99981474876403809
+      ],
+      "min": [
+        -0.99995476007461548,
+        -0.99999833106994629,
+        -0.99998366832733154
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 15088,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        0.9999929666519165,
+        0.99999380111694336,
+        0.99991965293884277,
+        1
+      ],
+      "min": [
+        -0.99998068809509277,
+        -0.99981963634490967,
+        -0.99999880790710449,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7544,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        0.99000000953674316,
+        0.99000000953674316
+      ],
+      "min": [
+        0.0099999997764825821,
+        0.027862999588251114
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4212,
+      "componentType": 5125,
+      "count": 78288,
+      "max": [
+        15331
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Zafio (https://sketchfab.com/zafio)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/models/04d109f5edb3407ca8939a109742fece",
+      "title": "Statue Of Edward Snowden"
+    },
+    "generator": "Sketchfab-3.29.4-rc4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 317364,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 130200,
+      "byteOffset": 317364,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 390600,
+      "byteOffset": 447564,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 260400,
+      "byteOffset": 838164,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1098564,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/default_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/patern.png"
+    },
+    {
+      "uri": "textures/default_normal.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "default",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 0,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.59999999999999998,
+          0.59999999999999998,
+          0.59999999999999998,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.90000000000000002,
+        "metallicRoughnessTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.84999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        -0.9999690055847168,
+        0.0046724420972168446,
+        0.0063370955176651478,
+        0,
+        0.0063371644355356693,
+        0,
+        0.99997991323471069,
+        0,
+        0.0046723484992980957,
+        0.9999890923500061,
+        -2.9610000638058409e-05,
+        0,
+        0.39611566066741943,
+        -1.0904533863067627,
+        1.0882889032363892,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "snow.obj.cleaner"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
