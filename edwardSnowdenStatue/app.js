@@ -1,5 +1,3 @@
-//Variables for setup
-
 let container;
 let camera;
 let renderer;
@@ -19,31 +17,35 @@ function init() {
 
     //Camera setup
     camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-    camera.position.set(0, 0, 30);
+    camera.position.set(0, 0, 20);
 
-    const ambient = new THREE.AmbientLight(0xffffff, 4);
+    const ambient = new THREE.AmbientLight(0xffffff, 8);
     scene.add(ambient);
 
     // LIGHTS
     const light = new THREE.DirectionalLight(0xffffff, 2);
-    light.position.set(50, 50, 50);
+    light.position.set(0, 50, 0);
     scene.add(light);
 
-    const light2 = new THREE.DirectionalLight(0x00ffff, 0.6);
+    const light10 = new THREE.DirectionalLight(0xffffff, 2);
+    light10.position.set(20, 0, 20);
+    scene.add(light10);
+
+    const light2 = new THREE.DirectionalLight(0x00ffff, 2);
     light2.position.set(0, 10, -10);
     scene.add(light2);
 
-    const light3 = new THREE.DirectionalLight(0xff00ff, 0.7);
+    const light3 = new THREE.DirectionalLight(0xffffff, 2);
     light3.position.set(0, -10, -5);
     scene.add(light3);
 
-    const light4 = new THREE.PointLight(0xcccccc, 0.8, 100, 50);
-    light4.position.set(0, 10, 50);
-    scene.add(light4);
+    // const light4 = new THREE.PointLight(0xcccccc, 0.8, 100, 20);
+    // light4.position.set(0, 10, 50);
+    // scene.add(light4);
 
-    const light5 = new THREE.DirectionalLight(0xaaddaa, 1.7);
-    light5.position.set(10, 10, 10);
-    scene.add(light5);
+    // const light5 = new THREE.DirectionalLight(0xaaddaa, 1.2);
+    // light5.position.set(10, 10, 10);
+    // scene.add(light5);
 
     //Renderer
     renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -58,21 +60,15 @@ function init() {
         snowden = gltf.scene.children[0];
         animate();
     });
-
-    console.log(renderer);
     const control = new THREE.OrbitControls(camera, renderer.domElement);
     control.update();
 }
 
-console.log(renderer);
-// const control = new THREE.OrbitControls(camera, renderer.domElement);
-// control.update();
-
 function animate() {
     requestAnimationFrame(animate);
-    snowden.rotation.z += 0.00275;
-    snowden.rotation.x += 0.00455;
-    snowden.rotation.y -= 0.00395;
+    snowden.rotation.z -= 0.0003075;
+    snowden.rotation.x -= 0.0003655;
+    snowden.rotation.y += 0.0003895;
     renderer.render(scene, camera);
 }
 
@@ -81,7 +77,6 @@ init();
 function onWindowResize() {
     camera.aspect = container.clientWidth / container.clientHeight;
     camera.updateProjectionMatrix();
-
     renderer.setSize(container.clientWidth, container.clientHeight);
 }
 

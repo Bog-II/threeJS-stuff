@@ -217,6 +217,9 @@
     },
     {
       "uri": "textures/default_normal.jpg"
+    },
+    {
+      "uri": "textures/pg.jpg"
     }
   ],
   "materials": [
